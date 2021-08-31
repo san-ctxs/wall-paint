@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>catalogo-cores</title>
+  <link rel="stylesheet" href="wall-paint.css">
+  <script src="wall-paint.js"></script>
+</head>
+
+<body id="bgColor">
+  <header>
+    <h1>CATÁLOGO <br> DE <br> CORES</h1>
+  </header>
+  <main>
+    <div id="wallColor"></div>
+    <div class="dd-menu">
+      <p>Cor do fundo:</p>
+      <select id="bgSelector">
+        <option value="white">Branco</option>
+        <option value="black">Preto</option>
+      </select>
+      <p>Cor da parede:</p>
+      <select id="colorSelector">
+        <option value="#03664F">Floreta Amazônica</option>
+        <option value="#1F564C">Esmeralda Intensa</option>
+        <option value="#19563e">Verde Trevo</option>
+        <option value="#40E0D0">Turquesa</option>
+        <option value="#D2691E">Chocolate</option>
+        <option value="#FFDEAD">Branco Navajo</option>
+        <option value="#DA70D6">Orquídea</option>
+      </select>
+      <button onclick="colorChange();">Aplicar</button>
+    </div>
+  </main>
+
+</body>
+
+</html>

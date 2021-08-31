@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-weight: bold;
+  margin: 0px 0px 5px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+button,
+select {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 5px 0px;
+  height: 30px;
+}
+
+.dd-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  padding: 10px 0px 5px 0px;
+  width: 60vmin;
+  border-radius: 0px 0px 50px 50px;
+}
+
+#bgColor {
+  background-color: white;
+}
+
+#wallColor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #03664f;
+  width: 60vmin;
+  height: 60vmin;
+  border-radius: 50px 50px 0px 0px;
+}
